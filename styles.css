@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.heading{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 5rem;
+    /* height:100vh; */
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.card{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px 15px;
+}
+ p{
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    opacity: 0;
+}
+.para1{
+    position: absolute;
+    top: 480px;
+    left: 170px;
+
+}
+.para2{
+    position: absolute;
+    top: 480px;
+    left: 590px;
+
+}
+.para3{
+    position: absolute;
+    top: 480px;
+    left: 990px;
+
+}
+
+.para4{
+    position: absolute;
+    top: 890px;
+    left: 170px;
+
+}
+.para5{
+    position: absolute;
+    top: 890px;
+    left: 590px;
+
+}
+.para6{
+    position: absolute;
+    top: 890px;
+    left: 990px;
+
+}
+.para7{
+    position: absolute;
+    top: 1310px;
+    left: 170px;
+
+}
+.para8{
+    position: absolute;
+    top: 1310px;
+    left: 590px;
+
+}
+.para9{
+    position: absolute;
+    top: 1310px;
+    left: 990px;
+
+}
+
+.box img{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px #333;
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+
+img:hover{
+    filter: grayscale(0);
+    transform: scale(1.03);
+  transition: 0.5s;
+  filter: drop-shadow(0 0 10px #333);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%); 
+  
+}
+.card:hover p{
+    opacity: 1;
+    transform: scale(1.03);
+}
